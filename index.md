@@ -1,9 +1,9 @@
-# Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Camera Gimbal
+This project details the system of a 3D printed camera gimbal that stabilizes a user's video footage using MPU sensors, servoes and an Arduino board. The project was built with improvisation on parts such as nuts and bolts, as well as a power source, to complete and finalize building. The process of building this entire system provided knowledge on coding and basic engineering such as soldering and wiring from a source such as USB. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Jeremy H | Saratoga High School | Electrical, Firmware and Mechanical Engineering | Incoming Sophmore
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
