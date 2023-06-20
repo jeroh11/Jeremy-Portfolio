@@ -30,6 +30,9 @@ This project details the system of a 3D printed camera gimbal that stabilizes a 
 # First Milestone
 For my first milestone, I achieved two key points to my project: To successfully aquire my MPU6050 accelerometer readings and then visualize their readings in real time with a coding software called processing. Something I definitely did not expect was the amount of troubleshooting that I had to complete in order to achieve my milestone, as the code being used had many errors that affected the readings of the component. The code I implemented included error values to counter drift that the accelerometer would pick up over time, which were wrong. I had to find the exact error values of the X, Y and Z readings to get accurate readings through guessing and checking. 
 
+This is the code that visualizes the readings of the MPU onto Processing:
+![Headstone Image](Capture.PNG)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_8qPUXlMU-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Starter Project
