@@ -61,14 +61,15 @@ void loop() {
 -->
 # Bill of Materials
 
-| **Part** | **Note** | **Price** | **Link** |
+| **Part** | **Purpose** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | MPU 6050 IMU | Accelerometer for Gyro Detection and Stabilization | $9.99 | <a href="https://www.amazon.com/HiLetgo-MPU-6050-Accelerometer-Gyroscope-Converter/dp/B00LP25V1A?crid=EPJ36BB9OJLO&keywords=MPU-6050&qid=1664878452&qu=eyJxc2MiOiIyLjkwIiwicXNhIjoiMi45NSIsInFzcCI6IjIuOTcifQ%3D%3D&sprefix=mpu6050,aps,266&sr=8-3&linkCode=sl1&tag=howto045-20&linkId=a10e35b9e08344c4716bc03a15f70908&language=en_US&ref_=as_li_ss_tl"> Link </a> |
-|:--:|:--:|:--:|:--:|
+|||||
 | MG996R Servo | Device Arm Movement | $15.99 | <a href="https://www.amazon.com/YoungRC-MG996R-Torque-Digital-Helicopter/dp/B07PBJ1L8F?crid=U460WD9J18O5&keywords=MG996R&qid=1668338350&sprefix=mg996r,aps,470&sr=8-10&linkCode=sl1&tag=howto045-20&linkId=da31e960c0d15fb4970dcb1c3c0542ac&language=en_US&ref_=as_li_ss_tl"> Link </a> |
-|:--:|:--:|:--:|:--:|
+|||||
 | Arduino Nano Board | Holds All Code and Function | $26.00 | <a href="https://www.amazon.com/Arduino-A000005-ARDUINO-Nano/dp/B0097AU5OU/ref=as_li_ss_tl?keywords=arduino+nano&qid=1554818901&s=electronics&sr=1-4&linkCode=sl1&tag=creativity02-20&linkId=b9db1fe83cb2f834ad5f8d01ece300cd&language=en_US"> Link </a> |
-|:--:|:--:|:--:|:--:|
+|||||
+| Anker Power Bank | Provides Power to Device | $17.99 | <a href="https://www.amazon.com/Anker-PowerCore-Ultra-Compact-High-Speed-Technology/dp/B01CU1EC6Y/ref=sr_1_11?crid=2NBYWOCLV5SOO&keywords=anker+power+bank+5+volt&qid=1687464871&sprefix=anker+power+bank+5+vo%2Caps%2C169&sr=8-11"> Link </a> |
 
 # Other Resources/Examples
 <!--One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
