@@ -1,5 +1,5 @@
 # Camera Gimbal
-This project details the system of a 3D printed camera gimbal that stabilizes a user's video footage using MPU sensors, servoes and an Arduino board. The project was built with improvisation on parts such as nuts and bolts, as well as a power source, to complete and finalize building. The process of building this entire system provided knowledge on coding and basic engineering such as soldering and wiring from a source such as USB. 
+This project details the system of a 3D printed camera gimbal that stabilizes a user's video footage using MPU sensors, servoes and an Arduino board. The project was built with improvisation on parts such as nuts and bolts, as well as a power source, to complete and finalize building. The process of building this entire system provided knowledge on coding and basic engineering such as soldering and wiring from a source such as USB. I'm most interested in this project because it introduces the concept of real time responses and its contribution to the advancements of media recording. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -11,15 +11,10 @@ This project details the system of a 3D printed camera gimbal that stabilizes a 
 -->
 
 # Final Milestone
-<!--For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+
+For my final milestone, I organized all the wiring in my device and put them into the device itself to create space and give the device a mobile form factor. The biggest challenge I had to troubleshoot during this milestone progression was that my current wiring was poor, which caused my servos to not function properly. I resoldered all of my wires and cut new ones, which established a firm and stable connection between the device's power, Arduino, sensor, and servos. On top of my device functioning properly, I discovered that the Arduino and MPU6050 accelerometer's GND pin must be connected to a power source to function with the 5V connection. The information prompted me to introduce a new connection between the Arduino and accelerometer's GND pin to a power bank, which was a big achievement as it reduced the amount of power sources required from two to one. In the past, incorrect wiring forced me to use two sources of power, a power bank for the servos and a 9V battery for the Arduino and sensor. However, this change in my project made the device more effective by making its wiring less messy by taking away from the bundle of wires that I placed into the device, which decreases the chances of short circuits to occur by wires coming into contact. The power bank I used was too large to fit inside the device handle itself, so I moved the cable connection to the power bank outside the device, giving me a new opportunity to create a part that can benefit the ergonomics of the gimbal handle. At Bluestamp Engineering, this project I had chosen introduced an overwhelming amount of challenges for me to fix, which made me learn a lot about many different paths of engineering, such as coding and firmware. However, I intend to use the rest of my time attending Bluestamp to innovate by myself and create a CAD part for my camera gimbal that introduces campatability for phone recordings, in addition to a part that can turn my power bank into more ergonomic handle for holding the device, essentially killing two birds with one stone by giving the power bank a place to be a part of the device as well as including a more effective usage of the device.
 
 # Second Milestone
 
