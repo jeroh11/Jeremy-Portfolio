@@ -40,6 +40,7 @@ For my starter project, I built a board featuring the classic game of Simon Says
 
 # Schematics 
 
+By Dejan from HowToMechatronics
 ![HeadstoneImage](DIY-Arduino-Gimbal-Self-Stabilizing-Platform.jpeg)
 
 # Code
