@@ -6,9 +6,8 @@ This project details the system of a 3D printed camera gimbal that stabilizes a 
 | Jeremy H | Saratoga High School | Electrical, Firmware and Mechanical Engineering | Incoming Sophmore
 
 <!--**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
 -->
+[Headstone Image](Jeremy-Project.png)
 
 # Fourth Milestone: Mods
 
