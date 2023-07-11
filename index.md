@@ -10,6 +10,10 @@ This project details the system of a 3D printed camera gimbal that stabilizes a 
 ![Headstone Image](logo.svg)
 -->
 
+# Fourth Milestone: Mods
+
+For my fourth and final milestone, I designed my own mods that provided a more efficient use of my device, the camera gimbal. The device's baseplate is only compatible with mounts for camera that are not from mobile phones, so my first plan was to design a phone holder that fit onto the baseplate and held a phone for me to use with my device. In addition, I realized that, while using the device, I didn't get a good enough hold of the gimbal because of the bulkiness of the handle, so I added some foam strips to help with the grip and ergonomics of the handle. The battery that came included with my project didn't fit in the handle, where the other componenets and wiring was, so I implemented a mod that had a crevice that holds the battery pack on the bottom of the device cover with a piece of velcro and some hot glue, which provides enough grip so that the battery pack doesn't slide or wiggle around when recording. The biggest challenge I encountered was the amount of trial and error I had to go through to CAD parts of the phone holder and battery holder, since I started from scratch. I went through many different prototypes of the mods to find a model that was not only effective but strong enough to last many uses. The phone holder itself took many stepping stones to achieve a final result, such as testing the mechanism that holds the phone, the peg inserts that attach to the baseplate, the holes that allow for screws to fasten into the mod, as well as many others. The biggest takeaway I gained from this project was the experience that was unlocked when building my CAD mods, in addition to a solid, but not perfect, understanding of C++ code in Arduino form. 
+
 # Third Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n_57BFN_kvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -264,5 +268,6 @@ void loop() {
 |||||
 | Anker Power Bank | Provides Power to Device | $17.99 | <a href="https://www.amazon.com/Anker-PowerCore-Ultra-Compact-High-Speed-Technology/dp/B01CU1EC6Y/ref=sr_1_11?crid=2NBYWOCLV5SOO&keywords=anker+power+bank+5+volt&qid=1687464871&sprefix=anker+power+bank+5+vo%2Caps%2C169&sr=8-11"> Link </a> |
 
-# Other Resources/Examples
+<!-- # Other Resources/Examples 
+-->
 
