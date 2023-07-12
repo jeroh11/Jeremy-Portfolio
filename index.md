@@ -59,20 +59,25 @@ Gimbal Baseplate
 Gimbal Bottom Cover
 ![HeadstoneImage](cover.PNG)
 
+
 Pitch Servo Arm
 ![HeadstoneImage](pitchservo.PNG)
+
 
 Roll Servo Arm
 ![HeadstoneImage](rollservo.PNG)
 
+
 Gimbal Handle
 ![HeadstoneImage](yawservo.PNG)
+
 
 Battery Holder (Mod)
 ![HeadstoneImage](batteryholder.PNG)
 
+
 Phone Holder (Mod)
-![HeadstoneImage](phoneholder.png)
+![HeadstoneImage](phoneholder.PNG)
 
 
 # Code
