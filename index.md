@@ -60,19 +60,19 @@ Gimbal Bottom Cover
 ![HeadstoneImage](cover.PNG)
 
 Pitch Servo Arm
-![HeadstoneImage](pitch servo.PNG)
+![HeadstoneImage](pitchservo.PNG)
 
 Roll Servo Arm
-![HeadstoneImage](roll servo.PNG)
+![HeadstoneImage](rollservo.PNG)
 
 Gimbal Handle
-![HeadstoneImage](yaw servo.PNG)
+![HeadstoneImage](yawservo.PNG)
 
 Battery Holder (Mod)
-![HeadstoneImage](battery holder.PNG)
+![HeadstoneImage](batteryholder.PNG)
 
 Phone Holder (Mod)
-![HeadstoneImage](phone holder.png)
+![HeadstoneImage](phoneholder.png)
 
 
 # Code
