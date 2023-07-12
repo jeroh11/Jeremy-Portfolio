@@ -52,6 +52,27 @@ By Dejan from HowToMechatronics
 
 Below are the included and new models that I used to print my device and mods.
 
+Gimbal Baseplate
+
+![HeadstoneImage](baseplate.PNG)
+
+Gimbal Bottom Cover
+![HeadstoneImage](cover.PNG)
+
+Pitch Servo Arm
+![HeadstoneImage](pitch servo.PNG)
+
+Roll Servo Arm
+![HeadstoneImage](roll servo.PNG)
+
+Gimbal Handle
+![HeadstoneImage](yaw servo.PNG)
+
+Battery Holder (Mod)
+![HeadstoneImage](battery holder.PNG)
+
+Phone Holder (Mod)
+![HeadstoneImage](phone holder.png)
 
 
 # Code
