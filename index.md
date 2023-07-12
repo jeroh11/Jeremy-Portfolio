@@ -1,5 +1,5 @@
 # Camera Gimbal
-This project details the system of a 3D printed camera gimbal that stabilizes a user's video footage using MPU sensors, servoes and an Arduino board. The project was built with improvisation on parts such as nuts and bolts, as well as a power source, to complete and finalize building. The process of building this entire system provided knowledge on coding and basic engineering such as soldering and wiring from a source such as USB. I'm most interested in this project because it introduces the concept of real time responses and its contribution to the advancements of media recording. 
+This project details the system of a 3D printed camera gimbal that stabilizes a user's video footage using MPU sensors, servoes and an Arduino board. The project was built with improvisation on parts such as nuts and bolts, as well as a power source, to complete and finalize building. In addition to the base project, mods were included to further enhance the performance and compatibility of the whole device. The process of building this entire system provided knowledge on coding and basic engineering such as soldering and wiring from a source such as USB, as well as CAD experience from a web based 3D modeling program called Onshape. I'm most interested in this project because it introduces the concept of real time responses and its contribution to the advancements of media recording in applications such as movies, TV shows, and other kinds of media filming.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -39,12 +39,18 @@ The code takes the code from the Arduino board and creates a model of the breadb
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s5TrzVyCpa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For my starter project, I built a board featuring the classic game of Simon Says. I chose this project because I took interest in its hands on construction that results in a fun game that challenges memory, listening and visual skills for players of all ages. This project includes working with a basic components such as a microcontroller, resistor and capacitor. In addition, the board required basic soldering to complete and function, which was the biggest obstacle I faced while working on this Simon Says board, as I started the project without prior knowledge on how to solder components such as LEDs together. However, I completed the project on my first day here as a great stepping stone to what I am going to accomplish next during my time at Bluestamp, which is the Camera Gimbal project.
+For my starter project, I built a board featuring the classic game of Simon Says. I chose this project because I took interest in its hands on construction that results in a fun game that challenges memory, listening and visual skills for players of all ages. This project includes working with a basic components such as a microcontroller, resistor and capacitor. In addition, the board required basic soldering to complete and function, which was the biggest obstacle I faced while working on this Simon Says board, as I started the project without prior knowledge on how to solder components such as LEDs together. However, I completed the project on my first day here as a great stepping stone, in terms of experience, to what I am going to accomplish next during my time at Bluestamp, which is the Camera Gimbal project.
 
 # Schematics 
 
 By Dejan from HowToMechatronics
 ![HeadstoneImage](DIY-Arduino-Gimbal-Self-Stabilizing-Platform.jpeg)
+
+# CAD Files
+
+Below are the included and new models that I used to print my device and mods.
+
+
 
 # Code
 
