@@ -64,6 +64,8 @@ With the remaining time I have had left, I decided to upgrade my gimbal some mor
 
 ![HeadstoneImage](WIN_20230717_13_12_31_Pro.jpg)
 
+![HeadstoneImage](mod.PNG)
+
 # Third Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n_57BFN_kvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
