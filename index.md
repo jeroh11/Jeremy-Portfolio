@@ -15,43 +15,6 @@ This project details the system of a 3D printed camera gimbal that stabilizes a 
 
 For my fourth and final milestone, I designed my own mods that provided a more efficient use of my device, the camera gimbal. The device's baseplate is only compatible with mounts for camera that are not from mobile phones, so my first plan was to design a phone holder that fit onto the baseplate and held a phone for me to use with my device. In addition, I realized that, while using the device, I didn't get a good enough hold of the gimbal because of the bulkiness of the handle, so I added some foam strips to help with the grip and ergonomics of the handle. The battery that came included with my project didn't fit in the handle, where the other componenets and wiring was, so I implemented a mod that had a crevice that holds the battery pack on the bottom of the device cover with a piece of velcro and some hot glue, which provides enough grip so that the battery pack doesn't slide or wiggle around when recording. The biggest challenge I encountered was the amount of trial and error I had to go through to CAD parts of the phone holder and battery holder, since I started from scratch. I went through many different prototypes of the mods to find a model that was not only effective but strong enough to last many uses. The phone holder itself took many stepping stones to achieve a final result, such as testing the mechanism that holds the phone, the peg inserts that attach to the baseplate, the holes that allow for screws to fasten into the mod, as well as many others. The biggest takeaway I gained from this project was the experience that was unlocked when building my CAD mods, in addition to a solid, but not perfect, understanding of C++ code in Arduino form. 
 
-With the remaining time I have had left, I decided to upgrade my gimbal some more. Phones that are held by my phone holder mod are a little too heavy for the device, bending the 3d filament used to print the device, so I decided to model a new plastic arm for the device that increases stability by changing the dimensions as well as adding a metal L bracket and a metal sheet I dremeled onto the arm to ensure that the arm would not bend to the weight of the phone I used. Below is a picture of the changes I made.
-
-![HeadstoneImage](WIN_20230717_13_12_31_Pro.jpg)
-
-# Third Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n_57BFN_kvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For my third milestone, I organized all the wiring in my device and put them into the device itself to create space and give the device a mobile form factor. The biggest challenge I had to troubleshoot during this milestone progression was that my current wiring was poor, which caused my servos to not function properly. I resoldered all of my wires and cut new ones, which established a firm and stable connection between the device's power, Arduino, sensor, and servos. On top of my device functioning properly, I discovered that the Arduino and MPU6050 accelerometer's GND pin must be connected to a power source to function with the 5V connection. The information prompted me to introduce a new connection between the Arduino and accelerometer's GND pin to a power bank, which was a big achievement as it reduced the amount of power sources required from two to one. In the past, incorrect wiring forced me to use two sources of power, a power bank for the servos and a 9V battery for the Arduino and sensor. However, this change in my project made the device more effective by making its wiring less messy by taking away from the bundle of wires that I placed into the device, which decreases the chances of short circuits to occur by wires coming into contact. The power bank I used was too large to fit inside the device handle itself, so I moved the cable connection to the power bank outside the device, giving me a new opportunity to create a part that can benefit the ergonomics of the gimbal handle. At Bluestamp Engineering, this project I had chosen introduced an overwhelming amount of challenges for me to fix, which made me learn a lot about many different paths of engineering, such as coding and firmware. However, I intend to use the rest of my time attending Bluestamp to innovate by myself and create a CAD part for my camera gimbal that introduces campatability for phone recordings, in addition to a part that can turn my power bank into more ergonomic handle for holding the device, essentially killing two birds with one stone by giving the power bank a place to be a part of the device as well as including a more effective usage of the device.
-
-# Second Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FN5Kb476y0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For my second milestone, I achieved the basic completion of my project and the successful functions of the components as a whole. I uploaded specific code to my Arduino board, which powers the MPU6050 accelerometer, which controls the gyro values of the device. I have an external source of electricity, a power bank, which powers the servos to coordinate with the accelerometer to stabilize movement on the gimbal. The biggest issue with the completion of the device was a consistent amount of errors with the servos while testing, as the servos started to move unnecessarily, which I am troubleshooting with the hopes of pinpointing and fixing in the near future. Currently, I assume that the problem has to do with the placement of the wiring that binds the components together, which is inconsistent in length and can tug along the servo's wires, creating errors.
-
-# First Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_8qPUXlMU-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For my first milestone, I achieved two key points to my project: To successfully acquire my MPU6050 accelerometer readings and then visualize their readings in real time with a coding software called processing. Something I definitely did not expect was the amount of troubleshooting that I had to complete in order to achieve my milestone, as the code being used had many errors that affected the readings of the component. The code I implemented included error values to counter drift that the accelerometer would pick up over time, which were wrong. I had to find the exact error values of the X, Y and Z readings to get accurate readings through guessing and checking. 
-
-This is the code that visualizes the readings of the MPU onto Processing:
-![Headstone Image](Capture.PNG)
-The code takes the code from the Arduino board and creates a model of the breadboard the accelerometer and Arduino is pinned into and changes it in real time according to the readings of the accelerometer.
-
-# Starter Project
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s5TrzVyCpa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For my starter project, I built a board featuring the classic game of Simon Says. I chose this project because I took interest in its hands on construction that results in a fun game that challenges memory, listening and visual skills for players of all ages. This project includes working with a basic components such as a microcontroller, resistor and capacitor. In addition, the board required basic soldering to complete and function, which was the biggest obstacle I faced while working on this Simon Says board, as I started the project without prior knowledge on how to solder components such as LEDs together. However, I completed the project on my first day here as a great stepping stone, in terms of experience, to what I am going to accomplish next during my time at Bluestamp, which is the Camera Gimbal project.
-
-# Schematics 
-
-By Dejan from HowToMechatronics
-![HeadstoneImage](DIY-Arduino-Gimbal-Self-Stabilizing-Platform.jpeg)
-
 # CAD Files
 
 Below are the included and new models that I used to print my device and mods.
@@ -94,6 +57,45 @@ Phone Holder (Mod)
 ![HeadstoneImage](phoneholder.PNG)
 
 
+
+
+
+With the remaining time I have had left, I decided to upgrade my gimbal some more. Phones that are held by my phone holder mod are a little too heavy for the device, bending the 3d filament used to print the device, so I decided to model a new plastic arm for the device that increases stability by changing the dimensions as well as adding a metal L bracket and a metal sheet I dremeled onto the arm to ensure that the arm would not bend to the weight of the phone I used. Below is a picture of the changes I made.
+
+![HeadstoneImage](WIN_20230717_13_12_31_Pro.jpg)
+
+# Third Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n_57BFN_kvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For my third milestone, I organized all the wiring in my device and put them into the device itself to create space and give the device a mobile form factor. The biggest challenge I had to troubleshoot during this milestone progression was that my current wiring was poor, which caused my servos to not function properly. I resoldered all of my wires and cut new ones, which established a firm and stable connection between the device's power, Arduino, sensor, and servos. On top of my device functioning properly, I discovered that the Arduino and MPU6050 accelerometer's GND pin must be connected to a power source to function with the 5V connection. The information prompted me to introduce a new connection between the Arduino and accelerometer's GND pin to a power bank, which was a big achievement as it reduced the amount of power sources required from two to one. In the past, incorrect wiring forced me to use two sources of power, a power bank for the servos and a 9V battery for the Arduino and sensor. However, this change in my project made the device more effective by making its wiring less messy by taking away from the bundle of wires that I placed into the device, which decreases the chances of short circuits to occur by wires coming into contact. The power bank I used was too large to fit inside the device handle itself, so I moved the cable connection to the power bank outside the device, giving me a new opportunity to create a part that can benefit the ergonomics of the gimbal handle. At Bluestamp Engineering, this project I had chosen introduced an overwhelming amount of challenges for me to fix, which made me learn a lot about many different paths of engineering, such as coding and firmware. However, I intend to use the rest of my time attending Bluestamp to innovate by myself and create a CAD part for my camera gimbal that introduces campatability for phone recordings, in addition to a part that can turn my power bank into more ergonomic handle for holding the device, essentially killing two birds with one stone by giving the power bank a place to be a part of the device as well as including a more effective usage of the device.
+
+# Second Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FN5Kb476y0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For my second milestone, I achieved the basic completion of my project and the successful functions of the components as a whole. I uploaded specific code to my Arduino board, which powers the MPU6050 accelerometer, which controls the gyro values of the device. I have an external source of electricity, a power bank, which powers the servos to coordinate with the accelerometer to stabilize movement on the gimbal. The biggest issue with the completion of the device was a consistent amount of errors with the servos while testing, as the servos started to move unnecessarily, which I am troubleshooting with the hopes of pinpointing and fixing in the near future. Currently, I assume that the problem has to do with the placement of the wiring that binds the components together, which is inconsistent in length and can tug along the servo's wires, creating errors.
+
+# First Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_8qPUXlMU-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For my first milestone, I achieved two key points to my project: To successfully acquire my MPU6050 accelerometer readings and then visualize their readings in real time with a coding software called processing. Something I definitely did not expect was the amount of troubleshooting that I had to complete in order to achieve my milestone, as the code being used had many errors that affected the readings of the component. The code I implemented included error values to counter drift that the accelerometer would pick up over time, which were wrong. I had to find the exact error values of the X, Y and Z readings to get accurate readings through guessing and checking. 
+
+This is the code that visualizes the readings of the MPU onto Processing:
+![Headstone Image](Capture.PNG)
+The code takes the code from the Arduino board and creates a model of the breadboard the accelerometer and Arduino is pinned into and changes it in real time according to the readings of the accelerometer.
+
+# Starter Project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s5TrzVyCpa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For my starter project, I built a board featuring the classic game of Simon Says. I chose this project because I took interest in its hands on construction that results in a fun game that challenges memory, listening and visual skills for players of all ages. This project includes working with a basic components such as a microcontroller, resistor and capacitor. In addition, the board required basic soldering to complete and function, which was the biggest obstacle I faced while working on this Simon Says board, as I started the project without prior knowledge on how to solder components such as LEDs together. However, I completed the project on my first day here as a great stepping stone, in terms of experience, to what I am going to accomplish next during my time at Bluestamp, which is the Camera Gimbal project.
+
+# Schematics 
+
+By Dejan from HowToMechatronics
+![HeadstoneImage](DIY-Arduino-Gimbal-Self-Stabilizing-Platform.jpeg)
 
 
 # Code
