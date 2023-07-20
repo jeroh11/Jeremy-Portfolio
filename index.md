@@ -97,7 +97,7 @@ For my starter project, I built a board featuring the classic game of Simon Says
 # Schematics 
 
 Created from scratch by me:
-![HeadstoneImage](ji.png)
+![HeadstoneImage](Untitled.png)
 
 
 # Code
